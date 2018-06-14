@@ -1,19 +1,27 @@
 // Create 2 variables and use getElementsByTagName to select the h1 and img tags.
 // Log the variables to the console, observe the results.
-
+var newHead = document.getElementsByTagName("h1")
+console.log(newHead)
+var newImg = document.getElementsByTagName("img")
+console.log(newImg)
 
 // Create a variable and use getElementById to select the img tag.
 // Log the variable to the console, observe the result.
-
+var targetId = document.getElementById("mainpicture")
+console.log(targetId)
 
 // Create a variable and use getElementsByClassName to select the li tag.
 // Log the variable to the console, observe the result.
-
+var newClass = document.getElementsByClassName("li")
+console.log(newClass)
 
 // Create at least 3 variables and use querySelector to select the h1, img, and li tags.
 // Try grabbing by class and id and tag name.
 // Log the variables to the console, observe the results.
-
+var newH1 = document.querySelector("h1")
+console.log(newH1)
+var theImg = document.querySelector("img")
+console.log(theImg)
 
 // Create at least 3 variables and use querySelectorAll to select the h1, img, and li tags.
 // Try grabbing by class and id and tag name.
